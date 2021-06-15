@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To DO List</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body class="bg-dark">
+ <div class="container">
+ 	 <div class="row">
+ 	 	<div class="heading">
+ 	 			<h1>Make your work list</h1>
+ 	 	</div>
+ 	 </div>
+ 	 <div class="row">
+ 	    <div class="example">
+               <input type="text" placeholder="Add Items" name="search" id="searchInput" value="">
+               <button type="submit" id="submitBtn">add</button>
+         </div>
+ 	 </div>
+ 	 <div class="row">
+ 	 	<ul id="items" class="myList" onmouseover="myfun()">
+ 	 		<!-- <li>Agnes<span class="close">&times;</span></li>
+ 	 		<li>Agnes<span class="close">&times;</span></li>
+ 	 		<li>Agnes<span class="close">&times;</span></li> -->
+ 	 		
+ 	 	</ul> 
+ 	 </div>
+ </div>
+<script type="text/javascript" src="script.js"></script>
+</html>
